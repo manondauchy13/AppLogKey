@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+<<<<<<< HEAD
         <item>@font/mada_black</item>
         <item>@font/mada_semibold</item>
+=======
+        <item>@font/mada</item>
+>>>>>>> origin/master
     </array>
 </resources>
