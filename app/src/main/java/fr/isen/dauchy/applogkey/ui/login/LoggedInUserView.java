@@ -3,11 +3,11 @@ package fr.isen.dauchy.applogkey.ui.login;
 /**
  * Class exposing authenticated user details to the UI.
  */
-class LoggedInUserView {
+class Logged3InUserView {
     private String displayName;
     //... other data fields that may be accessible to the UI
 
-    LoggedInUserView(String displayName) {
+    Logged3InUserView(String displayName) {
         this.displayName = displayName;
     }
 
