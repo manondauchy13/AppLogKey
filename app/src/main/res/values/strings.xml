@@ -19,4 +19,6 @@
     <string name="faq">faq</string>
     <string name="notif">notif</string>
     <string name="mon_h_tel">Mon hôtel</string>
+    <string name="restauration">Restauration</string>
+    <string name="mon_compte">Mon compte</string>
 </resources>

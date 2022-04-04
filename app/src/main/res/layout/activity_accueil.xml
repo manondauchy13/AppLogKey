@@ -54,7 +54,7 @@
         android:contentDescription="@string/chambre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fontHaut"
-        app:srcCompat="@drawable/chambre"
+        app:srcCompat="@drawable/machambre"
         tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
     <TextView
@@ -138,12 +138,12 @@
         app:srcCompat="@drawable/restauration" />
 
     <TextView
-        android:id="@+id/buttonReservation3"
+        android:id="@+id/buttonRestau"
         android:layout_width="166dp"
         android:layout_height="97dp"
         android:fontFamily="@font/mada_bold"
         android:gravity="center_vertical"
-        android:text="Restauration"
+        android:text="@string/restauration"
         android:textAlignment="textEnd"
         android:textColor="#FFFFFF"
         android:textSize="29sp"
@@ -162,6 +162,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageHotel"
         app:srcCompat="@drawable/moncompte" />
+
+    <TextView
+        android:id="@+id/buttonCompte"
+        android:layout_width="166dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/mada_bold"
+        android:gravity="center_vertical"
+        android:text="@string/mon_compte"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageCompte"
+        app:layout_constraintEnd_toEndOf="@+id/imageCompte"
+        app:layout_constraintStart_toStartOf="@+id/imageCompte"
+        app:layout_constraintTop_toBottomOf="@+id/imageHotel"
+        tools:ignore="RtlCompat" />
 
     <ImageView
         android:id="@+id/imageService"
