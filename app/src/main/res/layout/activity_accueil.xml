@@ -98,5 +98,105 @@
         app:layout_constraintStart_toStartOf="@+id/imageReservation"
         app:layout_constraintTop_toTopOf="@+id/imageReservation" />
 
+    <ImageView
+        android:id="@+id/imageHotel"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/hotel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageReservation"
+        app:srcCompat="@drawable/h_tel" />
+
+    <TextView
+        android:id="@+id/buttonHotel"
+        android:layout_width="166dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/mada_bold"
+        android:gravity="center_vertical"
+        android:text="@string/mon_h_tel"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageHotel"
+        app:layout_constraintEnd_toEndOf="@+id/imageHotel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageHotel"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageRestau"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/restau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageHotel"
+        app:layout_constraintTop_toBottomOf="@+id/imageChambre"
+        app:srcCompat="@drawable/restauration" />
+
+    <TextView
+        android:id="@+id/buttonReservation3"
+        android:layout_width="166dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/mada_bold"
+        android:gravity="center_vertical"
+        android:text="Restauration"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRestau"
+        app:layout_constraintEnd_toEndOf="@+id/imageRestau"
+        app:layout_constraintStart_toStartOf="@+id/imageRestau"
+        app:layout_constraintTop_toBottomOf="@+id/imageChambre"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageCompte"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/compte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHotel"
+        app:srcCompat="@drawable/moncompte" />
+
+    <ImageView
+        android:id="@+id/imageService"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toEndOf="@+id/imageCompte"
+        app:layout_constraintTop_toBottomOf="@+id/imageRestau"
+        app:srcCompat="@drawable/messervices" />
+
+    <ImageView
+        android:id="@+id/imageFaq"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:contentDescription="@string/faq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageNotif"
+        app:layout_constraintTop_toBottomOf="@+id/imageService"
+        app:srcCompat="@drawable/faq"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageNotif"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/notif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageCompte"
+        app:srcCompat="@drawable/notifications"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

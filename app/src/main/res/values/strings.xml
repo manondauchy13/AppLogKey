@@ -12,4 +12,11 @@
     <string name="ma_r_servation">Ma réservation</string>
     <string name="todo">TODO</string>
     <string name="r_servation">réservation</string>
+    <string name="hotel">hotel</string>
+    <string name="restau">restau</string>
+    <string name="compte">compte</string>
+    <string name="service">service</string>
+    <string name="faq">faq</string>
+    <string name="notif">notif</string>
+    <string name="mon_h_tel">Mon hôtel</string>
 </resources>
