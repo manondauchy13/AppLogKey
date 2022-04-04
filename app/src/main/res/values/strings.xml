@@ -4,4 +4,12 @@
     <string name="log">LOG\'</string>
     <string name="key">KEY</string>
     <string name="logo">logo</string>
+    <string name="accueil_log_key">Accueil Log\' Key</string>
+    <string name="font_haut">font haut</string>
+    <string name="image_logo">image logo</string>
+    <string name="ma_chambre">Ma chambre</string>
+    <string name="chambre">chambre</string>
+    <string name="ma_r_servation">Ma réservation</string>
+    <string name="todo">TODO</string>
+    <string name="r_servation">réservation</string>
 </resources>

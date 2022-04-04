@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccueilActivity">
+
+    <ImageView
+        android:id="@+id/fontHaut"
+        android:layout_width="412dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="-70dp"
+        android:contentDescription="@string/font_haut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hautappli" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/image_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/microsoftteams_image" />
+
+    <TextView
+        android:id="@+id/accueilView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mada_bold"
+        android:text="@string/accueil_log_key"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageChambre"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/chambre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fontHaut"
+        app:srcCompat="@drawable/chambre"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/buttonChambre"
+        android:layout_width="146dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/mada_bold"
+        android:text="@string/ma_chambre"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageChambre"
+        app:layout_constraintEnd_toEndOf="@+id/imageChambre"
+        app:layout_constraintStart_toStartOf="@+id/imageChambre"
+        app:layout_constraintTop_toTopOf="@+id/imageChambre"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageReservation"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/r_servation"
+        app:layout_constraintEnd_toStartOf="@+id/buttonChambre"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:srcCompat="@drawable/r_servation" />
+
+    <TextView
+        android:id="@+id/buttonReservation"
+        android:layout_width="166dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/mada_bold"
+        android:text="@string/ma_r_servation"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageReservation"
+        app:layout_constraintEnd_toEndOf="@+id/imageReservation"
+        app:layout_constraintStart_toStartOf="@+id/imageReservation"
+        app:layout_constraintTop_toTopOf="@+id/imageReservation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
