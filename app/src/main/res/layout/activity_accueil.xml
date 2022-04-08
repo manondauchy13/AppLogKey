@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".AccueilActivity">
 
+
     <ImageView
         android:id="@+id/fontHaut"
         android:layout_width="412dp"
@@ -45,174 +46,260 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageChambre"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/chambre"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fontHaut"
-        app:srcCompat="@drawable/machambre"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
-
-    <TextView
-        android:id="@+id/buttonChambre"
-        android:layout_width="146dp"
-        android:layout_height="71dp"
-        android:fontFamily="@font/mada_bold"
-        android:text="@string/ma_chambre"
-        android:textAlignment="textEnd"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageChambre"
-        app:layout_constraintEnd_toEndOf="@+id/imageChambre"
-        app:layout_constraintStart_toStartOf="@+id/imageChambre"
-        app:layout_constraintTop_toTopOf="@+id/imageChambre"
-        tools:ignore="TextContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageReservation"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/r_servation"
-        app:layout_constraintEnd_toStartOf="@+id/buttonChambre"
-        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:srcCompat="@drawable/r_servation" />
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
-    <TextView
-        android:id="@+id/buttonReservation"
-        android:layout_width="166dp"
-        android:layout_height="97dp"
-        android:fontFamily="@font/mada_bold"
-        android:text="@string/ma_r_servation"
-        android:textAlignment="textEnd"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageReservation"
-        app:layout_constraintEnd_toEndOf="@+id/imageReservation"
-        app:layout_constraintStart_toStartOf="@+id/imageReservation"
-        app:layout_constraintTop_toTopOf="@+id/imageReservation" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/imageHotel"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:contentDescription="@string/hotel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageReservation"
-        app:srcCompat="@drawable/h_tel" />
+            <ImageView
+                android:id="@+id/imageChambre"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginEnd="-200dp"
+                android:contentDescription="@string/chambre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chambre" />
+            <TextView
+                android:id="@+id/buttonChambre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/ma_chambre"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageChambre"
+                app:layout_constraintEnd_toEndOf="@+id/imageChambre"
+                app:layout_constraintStart_toStartOf="@+id/imageChambre"
+                app:layout_constraintTop_toTopOf="@+id/imageChambre"
+                tools:ignore="RtlCompat,TextContrastCheck,OnClick,TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/buttonHotel"
-        android:layout_width="166dp"
-        android:layout_height="97dp"
-        android:fontFamily="@font/mada_bold"
-        android:gravity="center_vertical"
-        android:text="@string/mon_h_tel"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageHotel"
-        app:layout_constraintEnd_toEndOf="@+id/imageHotel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageHotel"
-        tools:ignore="RtlCompat" />
+            <ImageView
+                android:id="@+id/imageReservation"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/r_servation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/reservation" />
+            <TextView
+                android:id="@+id/buttonReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/ma_r_servation"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageReservation"
+                app:layout_constraintEnd_toEndOf="@+id/imageReservation"
+                app:layout_constraintStart_toStartOf="@+id/imageReservation"
+                app:layout_constraintTop_toTopOf="@+id/imageReservation"
+                tools:ignore="RtlCompat" />
 
-    <ImageView
-        android:id="@+id/imageRestau"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/restau"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageHotel"
-        app:layout_constraintTop_toBottomOf="@+id/imageChambre"
-        app:srcCompat="@drawable/restauration" />
+            <ImageView
+                android:id="@+id/imageRestau"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginTop="156dp"
+                android:layout_marginEnd="-200dp"
+                android:contentDescription="@string/restau"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/restauration" />
+            <TextView
+                android:id="@+id/buttonRestau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/restauration"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageRestau"
+                app:layout_constraintEnd_toEndOf="@+id/imageRestau"
+                app:layout_constraintStart_toStartOf="@+id/imageRestau"
+                app:layout_constraintTop_toTopOf="@+id/imageRestau"
+                tools:ignore="RtlCompat" />
 
-    <TextView
-        android:id="@+id/buttonRestau"
-        android:layout_width="166dp"
-        android:layout_height="97dp"
-        android:fontFamily="@font/mada_bold"
-        android:gravity="center_vertical"
-        android:text="@string/restauration"
-        android:textAlignment="textEnd"
-        android:textColor="#FFFFFF"
-        android:textSize="29sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageRestau"
-        app:layout_constraintEnd_toEndOf="@+id/imageRestau"
-        app:layout_constraintStart_toStartOf="@+id/imageRestau"
-        app:layout_constraintTop_toBottomOf="@+id/imageChambre"
-        tools:ignore="RtlCompat" />
 
-    <ImageView
-        android:id="@+id/imageCompte"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginStart="16dp"
-        android:contentDescription="@string/compte"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageHotel"
-        app:srcCompat="@drawable/moncompte" />
+            <ImageView
+                android:id="@+id/imageHotel"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="172dp"
+                android:contentDescription="@string/hotel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hotel" />
+            <TextView
+                android:id="@+id/buttonHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/mon_h_tel"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageHotel"
+                app:layout_constraintEnd_toEndOf="@+id/imageHotel"
+                app:layout_constraintStart_toStartOf="@+id/imageHotel"
+                app:layout_constraintTop_toTopOf="@+id/imageHotel"
+                tools:ignore="RtlCompat" />
 
-    <TextView
-        android:id="@+id/buttonCompte"
-        android:layout_width="166dp"
-        android:layout_height="97dp"
-        android:fontFamily="@font/mada_bold"
-        android:gravity="center_vertical"
-        android:text="@string/mon_compte"
-        android:textAlignment="textEnd"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageCompte"
-        app:layout_constraintEnd_toEndOf="@+id/imageCompte"
-        app:layout_constraintStart_toStartOf="@+id/imageCompte"
-        app:layout_constraintTop_toBottomOf="@+id/imageHotel"
-        tools:ignore="RtlCompat" />
+            <ImageView
+                android:id="@+id/imageService"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginTop="312dp"
+                android:layout_marginEnd="-200dp"
+                android:contentDescription="@string/service"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/messervices" />
 
-    <ImageView
-        android:id="@+id/imageService"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="4dp"
-        android:contentDescription="@string/service"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
-        app:layout_constraintStart_toEndOf="@+id/imageCompte"
-        app:layout_constraintTop_toBottomOf="@+id/imageRestau"
-        app:srcCompat="@drawable/messervices" />
+            <TextView
+                android:id="@+id/buttonServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/mes_services"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageService"
+                app:layout_constraintEnd_toEndOf="@+id/imageService"
+                app:layout_constraintStart_toStartOf="@+id/imageService"
+                app:layout_constraintTop_toTopOf="@+id/imageService"
+                tools:ignore="RtlCompat" />
 
-    <ImageView
-        android:id="@+id/imageFaq"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:contentDescription="@string/faq"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageNotif"
-        app:layout_constraintTop_toBottomOf="@+id/imageService"
-        app:srcCompat="@drawable/faq"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+            <ImageView
+                android:id="@+id/imageCompte"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="328dp"
+                android:contentDescription="@string/compte"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/moncompte" />
 
-    <ImageView
-        android:id="@+id/imageNotif"
-        android:layout_width="170dp"
-        android:layout_height="141dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/notif"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageCompte"
-        app:srcCompat="@drawable/notifications"
-        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+            <TextView
+                android:id="@+id/buttonCompte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="11dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/mon_compte"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageCompte"
+                app:layout_constraintEnd_toEndOf="@+id/imageCompte"
+                app:layout_constraintStart_toStartOf="@+id/imageCompte"
+                app:layout_constraintTop_toTopOf="@+id/imageCompte"
+                tools:ignore="RtlCompat" />
+
+            <ImageView
+                android:id="@+id/imageFaq"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginTop="468dp"
+                android:layout_marginEnd="-200dp"
+                android:contentDescription="@string/faq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/faq" />
+
+            <TextView
+                android:id="@+id/buttonFaq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/faq2"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageFaq"
+                app:layout_constraintEnd_toEndOf="@+id/imageFaq"
+                app:layout_constraintStart_toStartOf="@+id/imageFaq"
+                app:layout_constraintTop_toTopOf="@+id/imageFaq"
+                tools:ignore="RtlCompat,TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/imageNotif"
+                android:layout_width="0dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="488dp"
+                android:contentDescription="@string/notif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/notifications" />
+
+            <TextView
+                android:id="@+id/buttonNotifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/mada_bold"
+                android:gravity="center"
+                android:text="@string/notifications"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageNotif"
+                app:layout_constraintEnd_toEndOf="@+id/imageNotif"
+                app:layout_constraintStart_toStartOf="@+id/imageNotif"
+                app:layout_constraintTop_toTopOf="@+id/imageNotif"
+                tools:ignore="RtlCompat,TextContrastCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

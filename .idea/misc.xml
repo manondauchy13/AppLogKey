@@ -4,8 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/drawable/component_1.xml" value="0.183" />
-        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_accueil.xml" value="0.25" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_accueil.xml" value="0.3907793633369923" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_accueil2.xml" value="0.5" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_faq.xml" value="0.30526315789473685" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_ma_chambre.xml" value="0.30526315789473685" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_ma_reservation.xml" value="0.156140350877193" />
         <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_main.xml" value="0.2866847826086957" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_mes_services.xml" value="0.156140350877193" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_mon_compte.xml" value="0.30526315789473685" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_mon_hotel.xml" value="0.156140350877193" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_notifications.xml" value="0.30526315789473685" />
+        <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_restauration.xml" value="0.156140350877193" />
         <entry key="..\:/Ce PC/Documents/AppLogKey/app/src/main/res/layout/activity_splash_screen.xml" value="0.35597826086956524" />
       </map>
     </option>
