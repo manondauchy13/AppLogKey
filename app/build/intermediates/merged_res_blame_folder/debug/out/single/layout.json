@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_check_in.xml",
+        "source": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\layout\\activity_check_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bluetooth.xml",
+        "source": "C:\\Users\\marie\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    }
+]
