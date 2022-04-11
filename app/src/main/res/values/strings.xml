@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Application_Elisa</string>
-    <string name="font_haut">Restauration</string>
-    <string name="menu_restaurant">Menu Restaurant</string>
-    <string name="petit_dejeuner">Petit Déjeuner</string>
-    <string name="bar">Bar</string>
-</resources>
