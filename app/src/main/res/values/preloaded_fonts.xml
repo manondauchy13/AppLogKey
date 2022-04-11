@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
@@ -7,13 +6,3 @@
         <item>@font/mada_semibold</item>
     </array>
 </resources>
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="preloaded_fonts" translatable="false">
-        <item>@font/mada_bold</item>
-        <item>@font/mada_light</item>
-        <item>@font/mada_semibold</item>
-    </array>
-</resources>
->>>>>>> 5ef150871fc7e289486feca89d3285a55c919100
