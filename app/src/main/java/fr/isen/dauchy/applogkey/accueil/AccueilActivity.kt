@@ -1,10 +1,11 @@
 package fr.isen.dauchy.applogkey.accueil
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import fr.isen.dauchy.applogkey.*
+import androidx.appcompat.app.AppCompatActivity
+import fr.isen.dauchy.applogkey.MesServicesMenuActivity
+import fr.isen.dauchy.applogkey.R
 
 
 class AccueilActivity : AppCompatActivity() {
@@ -48,7 +49,7 @@ class AccueilActivity : AppCompatActivity() {
             startActivity(hotelIntent)
         }
 
-        val servicesIntent : Intent =  Intent(this, MesServicesActivity::class.java)
+        val servicesIntent : Intent =  Intent(this, MesServicesMenuActivity::class.java)
         clickMesServices.setOnClickListener {
             startActivity(servicesIntent)
         }

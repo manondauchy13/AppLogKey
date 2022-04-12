@@ -62,4 +62,7 @@
     <string name="plan_d_acc_s">Plan d\'accès</string>
     <string name="title_activity_mon_hotel">MonHotelActivity</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="menu_restaurant">Menu Restaurant</string>
+    <string name="petit_dejeuner">Petit Déjeuner</string>
+    <string name="bar">Bar</string>
 </resources>

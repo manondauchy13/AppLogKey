@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="type" type="id" />
+    <item name="recapitulatifTxt" type="id" />
+    <item name="validationCommandePressing" type="id" />
+    <item name="totalTxt" type="id" />
+    <item name="texteInformationPressing" type="id" />
+    <item name="pressingTxt" type="id" />
+    <item name="type1Pressing" type="id" />
+    <item name="prixType1Pressing" type="id" />
+    <item name="checkBoxPressingType1" type="id" />
+    <item name="prixType2Pressing" type="id" />
+    <item name="type2Pressing" type="id" />
+    <item name="checkBoxPressingType2" type="id" />
+    <item name="quantite" type="id" />
+    <item name="prixTotalPressing" type="id" />
+</resources>

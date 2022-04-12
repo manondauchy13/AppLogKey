@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".accueil.RestaurationActivity">
-
+    tools:context=".MenuRoomServiceActivity">
     <ScrollView
         android:id="@+id/scroll_restauration"
         android:layout_width="409dp"
@@ -28,8 +27,8 @@
                 android:id="@+id/restaurant_img"
                 android:layout_width="419dp"
                 android:layout_height="341dp"
+                android:layout_marginTop="164dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/restaurant" />
@@ -104,6 +103,21 @@
                 app:rippleColor="#FFFFFF"
                 app:strokeColor="#FFF9F9" />
 
+            <TextView
+                android:id="@+id/roomServiceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/mada_bold"
+                android:text="ROOM SERVICE"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/restaurant_img"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
@@ -125,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Restauration"
+        android:text="Mes Services"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -142,4 +156,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/microsoftteams_image" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
