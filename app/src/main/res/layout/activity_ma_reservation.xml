@@ -5,7 +5,7 @@
     android:id="@+id/pinMap"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MaReservationActivity">
+    tools:context=".accueil.MaReservationActivity">
 
 
     <ImageView

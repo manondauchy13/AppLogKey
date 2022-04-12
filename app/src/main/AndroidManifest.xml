@@ -9,32 +9,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppLogKey">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD8Qq8eqhrIGHKX-z5T4Wvk86z9lL36Xu4" />
+
         <activity
-            android:name=".NotificationsActivity"
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+
+        <activity
+            android:name=".MentionsLegales"
             android:exported="false" />
         <activity
-            android:name=".FaqActivity"
+            android:name=".accueil.NotificationsActivity"
             android:exported="false" />
         <activity
-            android:name=".MonCompteActivity"
+            android:name=".accueil.FaqActivity"
             android:exported="false" />
         <activity
-            android:name=".MesServicesActivity"
+            android:name=".accueil.MonCompteActivity"
             android:exported="false" />
         <activity
-            android:name=".MonHotelActivity"
+            android:name=".accueil.MesServicesActivity"
             android:exported="false" />
         <activity
-            android:name=".RestaurationActivity"
+            android:name=".accueil.RestaurationActivity"
             android:exported="false" />
         <activity
-            android:name=".MaReservationActivity"
+            android:name=".accueil.MaReservationActivity"
             android:exported="false" />
         <activity
-            android:name=".MaChambreActivity"
+            android:name=".accueil.MaChambreActivity"
             android:exported="false" />
         <activity
-            android:name=".AccueilActivity"
+            android:name=".accueil.AccueilActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
@@ -42,6 +63,7 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -1,15 +1,15 @@
-package fr.isen.dauchy.applogkey
+package fr.isen.dauchy.applogkey.accueil
 
 
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.DatePicker
 import android.widget.TimePicker
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import fr.isen.dauchy.applogkey.R
 import kotlinx.android.synthetic.main.activity_ma_chambre.*
 import java.util.*
 
@@ -58,7 +58,7 @@ class MaChambreActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListene
     private fun pickDate(){
         btnTimePicker.setOnClickListener {
             getDateTimeCalendar()
-            DatePickerDialog(this,R.style.MyDatePickerStyle, this,year,month,day).show()
+            DatePickerDialog(this, R.style.MyDatePickerStyle, this,year,month,day).show()
 
         }
     }
