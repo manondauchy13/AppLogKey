@@ -31,7 +31,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/restaurant" />
+                app:srcCompat="@drawable/restaurant"
+                android:contentDescription="@string/todo" />
 
             <Button
                 android:id="@+id/icone_menuRestaurant"
@@ -40,7 +41,7 @@
                 android:layout_marginBottom="402dp"
                 android:background="@drawable/icone_menus"
                 android:fontFamily="@font/mada_bold"
-                android:text="Restaurant"
+                android:text="@string/restaurant"
                 android:textAllCaps="false"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/petitDej_img"
@@ -59,7 +60,8 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/restaurant_img"
-                app:srcCompat="@drawable/petit_dej" />
+                app:srcCompat="@drawable/petit_dej"
+                android:contentDescription="@string/todo" />
 
             <Button
                 android:id="@+id/icone_menuPetitDej"
@@ -68,7 +70,7 @@
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/icone_menus"
                 android:fontFamily="@font/mada_bold"
-                android:text="Petit Déjeuner"
+                android:text="@string/petit_d_jeuner"
                 android:textAllCaps="false"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toTopOf="@+id/bar_img"
@@ -86,7 +88,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/petitDej_img"
-                app:srcCompat="@drawable/bar" />
+                app:srcCompat="@drawable/bar"
+                android:contentDescription="@string/todo" />
 
             <Button
                 android:id="@+id/icone_menuBar"
@@ -94,7 +97,7 @@
                 android:layout_height="90dp"
                 android:background="@drawable/icone_menus"
                 android:fontFamily="@font/mada_bold"
-                android:text="Bar"
+                android:text="@string/bar"
                 android:textAllCaps="false"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -109,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
                 android:fontFamily="@font/mada_bold"
-                android:text="ROOM SERVICE"
+                android:text="@string/room_service1"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/restaurant_img"
@@ -131,7 +134,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -139,7 +143,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mes Services"
+        android:text="@string/mes_services6"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -155,6 +159,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

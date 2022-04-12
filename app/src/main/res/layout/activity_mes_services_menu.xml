@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MesServicesMenuActivity">
+
     <ImageView
         android:id="@+id/fontHaut"
         android:layout_width="412dp"
@@ -15,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -23,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mes Services"
+        android:text="@string/mes_services3"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -39,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/icone_roomService"
@@ -48,7 +51,7 @@
         android:layout_marginTop="75dp"
         android:background="@drawable/icone_menus"
         android:fontFamily="@font/mada_bold"
-        android:text="Room Service"
+        android:text="@string/room_service3"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +59,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fontHaut"
         app:rippleColor="#FFFFFF"
-        app:strokeColor="#FFF9F9" />
+        app:strokeColor="#FFF9F9"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/icone_pressing"
@@ -65,7 +69,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/icone_menus"
         android:fontFamily="@font/mada_bold"
-        android:text="Pressing"
+        android:text="@string/pressing"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +77,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/icone_roomService"
         app:rippleColor="#FFFFFF"
-        app:strokeColor="#FFF9F9" />
+        app:strokeColor="#FFF9F9"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/icone_taxi"
@@ -82,7 +87,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/icone_menus"
         android:fontFamily="@font/mada_bold"
-        android:text="Taxi"
+        android:text="@string/taxi"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,5 +95,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/icone_pressing"
         app:rippleColor="#FFFFFF"
-        app:strokeColor="#FFF9F9" />
+        app:strokeColor="#FFF9F9"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

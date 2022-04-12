@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MesCommandesTermineesActivity">
+
     <ImageView
         android:id="@+id/fontHaut"
         android:layout_width="412dp"
@@ -15,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -23,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mon Compte"
+        android:text="@string/mon_compte"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -39,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todoi" />
 
     <TextView
         android:id="@+id/mesCommandesTxt"
@@ -48,7 +51,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/mada"
-        android:text="Mes commandes"
+        android:text="@string/mes_commandes"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +66,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/mada_light"
-        android:text="Commandes terminées"
+        android:text="@string/commandes_termin_es"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:fontFamily="@font/mada_light"
-        android:text="Room service"
+        android:text="@string/room_service2"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="italic"
@@ -92,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="1dp"
         android:fontFamily="@font/mada_light"
-        android:text="Statut"
+        android:text="@string/statut"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/scrollRoomService"
@@ -106,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/mada_light"
-        android:text="Statut"
+        android:text="@string/statut"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/mada_light"
-        android:text="Titre"
+        android:text="@string/titre"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/scrollRoomService"
@@ -133,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/mada_light"
-        android:text="Titre"
+        android:text="@string/titre"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,7 +151,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginBottom="21dp"
         android:fontFamily="@font/mada_light"
-        android:text="Pressing"
+        android:text="@string/pressing"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="italic"

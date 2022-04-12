@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Taxi"
+        android:text="@string/taxi"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +26,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="104dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Appeler un taxi"
+        android:text="@string/appeler_un_taxi"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
         android:fontFamily="@font/mada_medium"
-        android:text="Payez directement votre course au taxi"
+        android:text="@string/payez_directement_votre_course_au_taxi"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +57,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -65,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mes Services"
+        android:text="@string/mes_services3"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -81,16 +82,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/icone_telephone"
         android:layout_width="63dp"
         android:layout_height="69dp"
         android:layout_marginEnd="92dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="@+id/appelerUnTaxi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/appelerUnTaxi"
-        app:srcCompat="@drawable/icone_telephone" />
+        app:srcCompat="@drawable/icone_telephone"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

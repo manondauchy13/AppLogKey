@@ -37,9 +37,7 @@ class AccueilActivity : AppCompatActivity() {
             startActivity(chambreIntent)
         }
         val reservationIntent : Intent =  Intent(this, MaReservationActivity::class.java)
-        clickMaReservation.setOnClickListener {
-            startActivity(reservationIntent)
-        }
+        clickMaReservation.setOnClickListener { startActivity(reservationIntent) }
         val restauIntent : Intent =  Intent(this, RestaurationActivity::class.java)
        clickRestauration.setOnClickListener {
             startActivity(restauIntent)

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MesMoyensDePaiementActivity">
+
     <ImageView
         android:id="@+id/fontHaut"
         android:layout_width="412dp"
@@ -15,13 +16,15 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="72dp"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mon Compte"
+        android:text="@string/mon_compte"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -69,7 +72,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/mada_bold"
-            android:text="Mes Moyens de paiement"
+            android:text="@string/mes_moyens_de_paiement"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +87,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/mada_semibold"
-            android:text="Ma Carte"
+            android:text="@string/ma_carte"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:fontFamily="@font/mada"
-            android:text="1234.5678.8765.4321"
+            android:text="@string/_1234_5678_8765_4321"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"

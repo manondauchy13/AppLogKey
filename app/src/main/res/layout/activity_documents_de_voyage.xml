@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/logo"
@@ -26,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/logo" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -34,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mon Compte"
+        android:text="@string/mon_compte"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -72,7 +74,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/mada_semibold"
-            android:text="Documents de voyage"
+            android:text="@string/documents_de_voyage"
             android:textColor="#000000"
             android:textSize="22sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +87,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/mada_medium"
-            android:text="Document d'identité"
+            android:text="@string/document_d_identit"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/mada_medium"
-            android:text="Type de Document"
+            android:text="@string/type_de_document"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -112,7 +114,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/mada"
-            android:text="Carte Identité"
+            android:text="@string/carte_identit"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/typeDocumentTxt"
@@ -125,7 +127,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/mada"
-            android:text="X4RTBPFW4"
+            android:text="@string/x4rtbpfw4"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/numIdentiteTxt"
@@ -137,7 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/mada_medium"
-            android:text="Numéro d'identité"
+            android:text="@string/num_ro_d_identit"
             android:textColor="#000000"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"

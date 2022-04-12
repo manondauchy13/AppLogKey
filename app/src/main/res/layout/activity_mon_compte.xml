@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hautappli" />
+        app:srcCompat="@drawable/hautappli"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/accueilView"
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Mon Compte"
+        android:text="@string/mon_compte"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -40,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 
     <ScrollView
         android:id="@+id/scrollCompte"
@@ -64,7 +66,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/mada_bold"
-                android:text="Nom d'utilisateur"
+                android:text="@string/nom_d_utilisateur"
                 android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -78,7 +80,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/mada_semibold"
-                android:text="Paramètres du Compte"
+                android:text="@string/param_tres_du_compte"
                 android:textColor="#000000"
                 android:textSize="22sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +93,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Informations personnelles"
+                android:text="@string/informations_personnelles"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/parametresDuCompte" />
@@ -103,7 +105,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Documents de voyage"
+                android:text="@string/documents_de_voyage"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/informationsPersonnelles" />
@@ -115,7 +117,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_semibold"
-                android:text="Sécurité"
+                android:text="@string/s_curit"
                 android:textColor="#000000"
                 android:textSize="22sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +130,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Changer le mot de passe"
+                android:text="@string/changer_le_mot_de_passe"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/securite" />
@@ -140,7 +142,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_semibold"
-                android:text="Paiements"
+                android:text="@string/paiements"
                 android:textColor="#000000"
                 android:textSize="22sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -153,7 +155,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Mes moyens de paiement"
+                android:text="@string/mes_moyens_de_paiement"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/paiements" />
@@ -165,7 +167,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Ma facture"
+                android:text="@string/ma_facture2"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mesMoyensDePaiement" />
@@ -177,7 +179,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_semibold"
-                android:text="Mes commandes"
+                android:text="@string/mes_commandes"
                 android:textColor="#000000"
                 android:textSize="22sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -190,7 +192,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Suivre mes commandes en cours"
+                android:text="@string/suivre_mes_commandes_en_cours"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mesCommandes" />
@@ -202,7 +204,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/mada_light"
-                android:text="Commandes terminées"
+                android:text="@string/commandes_termin_es"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

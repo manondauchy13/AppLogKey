@@ -248,7 +248,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/faq" />
+                app:srcCompat="@drawable/faq"
+                tools:ignore="ImageContrastCheck" />
 
             <TextView
                 android:id="@+id/buttonFaq"
@@ -278,7 +279,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/notifications" />
+                app:srcCompat="@drawable/notifications"
+                tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
             <TextView
                 android:id="@+id/buttonNotifications"

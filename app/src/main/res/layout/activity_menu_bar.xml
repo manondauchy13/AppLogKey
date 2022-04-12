@@ -25,6 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:contentDescription="@string/bar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -46,22 +47,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/bar_img"
                 app:rippleColor="#FFFFFF"
-                app:strokeColor="#FFF9F9" />
+                app:strokeColor="#FFF9F9"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
             <ImageView
                 android:id="@+id/menuChampagnes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/carte_bar"
                 app:layout_constraintBottom_toTopOf="@+id/menuCocktails"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/icone_bar"
-                app:srcCompat="@drawable/champagnesmenu" />
+                app:srcCompat="@drawable/champagnesmenu"
+                tools:ignore="ImageContrastCheck" />
 
             <ImageView
                 android:id="@+id/menuCocktails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/carte_bar_2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +93,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Restauration"
+        android:text="@string/restauration"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -101,6 +106,7 @@
         android:layout_width="100dp"
         android:layout_height="72dp"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/image_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

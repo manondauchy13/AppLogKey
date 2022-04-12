@@ -29,7 +29,8 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/restaurant" />
+                app:srcCompat="@drawable/restaurant"
+                android:contentDescription="@string/todo" />
 
             <Button
                 android:id="@+id/icone_menuRestaurant"
@@ -45,7 +46,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/restaurant_img_menu"
                 app:rippleColor="#FFFFFF"
-                app:strokeColor="#FFF9F9" />
+                app:strokeColor="#FFF9F9"
+                tools:ignore="TextContrastCheck,TextContrastCheck" />
 
             <ImageView
                 android:id="@+id/entree_menu_img"
@@ -56,7 +58,8 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/icone_menuRestaurant"
-                app:srcCompat="@drawable/entreesmenu" />
+                app:srcCompat="@drawable/entreesmenu"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/poissons_menu_img"
@@ -65,7 +68,9 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/entree_menu_img"
-                app:srcCompat="@drawable/poissonsmenu" />
+                app:srcCompat="@drawable/poissonsmenu"
+                tools:ignore="ImageContrastCheck"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/viandes_menu_img"
@@ -75,7 +80,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/poissons_menu_img"
-                app:srcCompat="@drawable/entreesviandes" />
+                app:srcCompat="@drawable/entreesviandes"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -87,7 +93,8 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/viandes_menu_img"
-                app:srcCompat="@drawable/dessertsmenu" />
+                app:srcCompat="@drawable/dessertsmenu"
+                android:contentDescription="@string/todo" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
@@ -112,14 +119,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/accueilView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/mada_bold"
-        android:text="Restauration"
+        android:text="@string/restauration"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"

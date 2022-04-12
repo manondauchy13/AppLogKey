@@ -25,6 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:contentDescription="@string/todo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +47,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/petitDej_img"
                 app:rippleColor="#FFFFFF"
-                app:strokeColor="#FFF9F9" />
+                app:strokeColor="#FFF9F9"
+                tools:ignore="TextContrastCheck" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -56,7 +58,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/icone_bar"
                 app:layout_constraintVertical_bias="1.0"
-                app:srcCompat="@drawable/petitdejmenu" />
+                app:srcCompat="@drawable/petitdejmenu"
+                tools:ignore="ImageContrastCheck,ImageContrastCheck"
+                android:contentDescription="@string/todo" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
@@ -79,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:fontFamily="@font/mada_bold"
-        android:text="Restauration"
+        android:text="@string/restauration"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
@@ -95,5 +99,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/microsoftteams_image" />
+        app:srcCompat="@drawable/microsoftteams_image"
+        android:contentDescription="@string/todo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
