@@ -4,5 +4,8 @@
         <item>@font/mada</item>
         <item>@font/mada_bold</item>
         <item>@font/mada_medium</item>
+        <item>@font/mada_black</item>
+        <item>@font/mada_light</item>
+        <item>@font/mada_semibold</item>
     </array>
 </resources>

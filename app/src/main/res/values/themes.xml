@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.AppLogKey" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/nude</item>
+        <item name="colorPrimary">#D1B78F</item>
         <item name="colorPrimaryVariant">@color/or</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
